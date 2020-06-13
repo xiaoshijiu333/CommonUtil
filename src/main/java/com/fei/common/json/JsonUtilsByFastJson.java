@@ -47,4 +47,9 @@ public class JsonUtilsByFastJson {
         return JSONObject.parseObject(jsonStr);
     }
 
+    /**
+     * 工具类不可被实例化，所以最好添加一个私有的构造器，指明不可被实例化
+     */
+    private JsonUtilsByFastJson() {
+    }
 }

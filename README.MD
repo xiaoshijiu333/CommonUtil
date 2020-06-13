@@ -19,3 +19,5 @@
 *   修改org.apache.tomcat.embed.tomcat-embed-core版本为9.0.35
 *   添加json相关处理工具类，提供fastjson和jackjson两种处理方式
 *   为了避免依赖冲突，该工具类里面大部分依赖都被设定为了provide
+*   添加文件命名特殊字符处理工具类
+*   将所有的工具类都设置成了只有一个私有的构造器，即不可以被实例化

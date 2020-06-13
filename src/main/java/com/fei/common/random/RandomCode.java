@@ -18,12 +18,17 @@ public class RandomCode {
         String string = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
         // 声明一个字符数组对象ch 保存 验证码
         char[] ch = new char[n];
+        Random random = new Random();
         for (int i = 0; i < n; i++) {
-            Random random = new Random();
             int index = random.nextInt(string.length());
             ch[i] = string.charAt(index);
         }
-        String result = String.valueOf(ch);
-        return result;
+        return String.valueOf(ch);
+    }
+
+    /**
+     * 工具类不可被实例化，所以最好添加一个私有的构造器，指明不可被实例化
+     */
+    private RandomCode() {
     }
 }

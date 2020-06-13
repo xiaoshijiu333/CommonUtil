@@ -45,4 +45,10 @@ public class JsonUtilsByJackJson {
         }
         return null;
     }
+
+    /**
+     * 工具类不可被实例化，所以最好添加一个私有的构造器，指明不可被实例化
+     */
+    private JsonUtilsByJackJson() {
+    }
 }
