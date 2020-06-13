@@ -14,3 +14,7 @@
 *   com.fei.common.exception.NotAuthException修改继承，继承com.fei.common.exception.CommonException
 *   修改com.fei.common.exception包下类的 "魔法数字" 
 *   在com.fei.common.constant.StatusConstant中添加常量FAILTURE_MESSAGE_PARAMETER_ERROR
+
+#### 2.1.0：
+*   修改org.apache.tomcat.embed.tomcat-embed-core版本为9.0.35
+*   添加json相关处理工具类，提供fastjson和jackjson两种处理方式
