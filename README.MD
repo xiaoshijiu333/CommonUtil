@@ -18,3 +18,4 @@
 #### 2.1.0：
 *   修改org.apache.tomcat.embed.tomcat-embed-core版本为9.0.35
 *   添加json相关处理工具类，提供fastjson和jackjson两种处理方式
+*   为了避免依赖冲突，该工具类里面大部分依赖都被设定为了provide
