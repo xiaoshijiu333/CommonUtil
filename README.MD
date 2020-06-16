@@ -26,3 +26,5 @@
 #### 2.2.0：
 *   删除json相关处理工具类，提供fastjson和jackjson两种处理方式
 *   删除json相关依赖
+*   创建类FileContant，添加文件相关常量
+*   修改文件工具类名为FileUtils，并添加下载文件方法
